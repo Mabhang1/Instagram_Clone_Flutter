@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:instagram_clone_flutter/responsive_layout_screen/responsive_layout_screen.dart';
 import 'package:instagram_clone_flutter/utils/colors.dart';
-import 'package:instagram_clone_flutter/responsive_layout_screen';
+import 'package:instagram_clone_flutter/responsive_layout_screen/mobile_screen_layout.dart';
+import 'package:instagram_clone_flutter/responsive_layout_screen/responsive_layout_screen.dart';
+import 'package:instagram_clone_flutter/responsive_layout_screen/web_screen_layout.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: mobileBackgroundColor,
       ),    
-      home: ResponsiveLayout(mobileScreenLayout: ,webScreenLayout: ,)
+      home: ResponsiveLayout(mobileScreenLayout: MobileScreenLayout(),webScreenLayout:WebScreenLayout() ,)
     );
   }
 }

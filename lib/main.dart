@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       title: 'Instagram',
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: mobileBackgroundColor,
-      ),     
+      ),    
       home: ResponsiveLayout(mobileScreenLayout: ,webScreenLayout: ,)
     );
   }

@@ -2,4 +2,4 @@
 
 ##In Progress
 
-<img src="Screenshots/Screenshot_icf_1.PNG" width="300" height="600">
+<img src="Screenshots/Screenshoticf1.png" width="300" height="600">

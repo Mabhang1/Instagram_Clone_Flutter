@@ -21,16 +21,8 @@ class AuthMethods{
         email.isNotEmpty || password.isNotEmpty || username.isNotEmpty || bio.isNotEmpty){
         UserCredential cred =await _auth.createUserWithEmailAndPassword(email: email, password: password);
         print(cred.user!.uid);
+        
         await _firestore.collection('users').doc(cred.user!.uid).set({
-          'username' :username,
-          'uid' : cred.user!.uid,
-          'bio' : bio,
-          'email' : email,
-          'followers' : [],
-          'following' : [], 
-        });
-
-        await _firestore.collection('users').add({
           'username' :username,
           'uid' : cred.user!.uid,
           'bio' : bio,

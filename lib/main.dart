@@ -8,7 +8,6 @@ import 'package:instagram_clone_flutter/utils/colors.dart';
 import 'package:instagram_clone_flutter/responsive_layout_screen/mobile_screen_layout.dart';
 import 'package:instagram_clone_flutter/responsive_layout_screen/responsive_layout_screen.dart';
 import 'package:instagram_clone_flutter/responsive_layout_screen/web_screen_layout.dart';
-import 'package:instagram_clone_flutter/screens/login_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

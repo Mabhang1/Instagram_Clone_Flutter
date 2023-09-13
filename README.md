@@ -4,8 +4,8 @@ This Flutter project is an Instagram clone that replicates some of the features 
 
 ## Screenshots
 
-- **Login Page**  
-  <img src="screenshots/S1.png" alt="Login Page" width="450" height="600">
+- **Sign Up Page**  
+  <img src="Screenshots/S1.PNG" alt="Sign Up Page" width="450" height="600">
 
-- **Signup Page**  
-  <img src="screenshots/S2.png" alt="Signup Page" width="450" height="600">
+- **Login Page**  
+  <img src="Screenshots/S2.PNG" alt="Login Page" width="450" height="600">
